@@ -1,0 +1,31 @@
+2026-04-09 17:17:03,212 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 17:17:03,274 | INFO | src.data_loader | Data loaded: 1860 rows, 14 columns
+2026-04-09 17:17:03,274 | INFO | src.data_loader | Columns: ['price', 'year_sold', 'property_tax', 'insurance', 'beds', 'baths', 'sqft', 'year_built', 'lot_size', 'basement', 'popular', 'recession', 'property_age', 'property_type_Condo']
+2026-04-09 17:17:03,284 | INFO | src.preprocessing | Features: 13 columns
+2026-04-09 17:17:03,285 | INFO | src.preprocessing | Target: price — range: $200,000 to $800,000
+2026-04-09 17:17:03,286 | INFO | src.preprocessing | Stratifying split on: property_type_Condo
+2026-04-09 17:17:03,298 | INFO | src.preprocessing | Split complete — Train: 1488, Test: 372
+2026-04-09 17:17:03,301 | INFO | src.preprocessing | Feature columns saved to models/feature_columns.pkl
+2026-04-09 17:17:03,301 | INFO | src.preprocessing | Preprocessing pipeline complete.
+2026-04-09 17:17:03,315 | INFO | src.train | Linear Regression trained. Intercept: $-23,695,096.43
+2026-04-09 17:17:04,169 | INFO | src.train | Random Forest trained. Trees: 200
+2026-04-09 17:17:04,173 | INFO | src.train | Model saved: models\linear_regression.pkl
+2026-04-09 17:17:04,255 | INFO | src.train | Model saved: models\random_forest.pkl
+2026-04-09 17:17:04,256 | INFO | src.train | All models trained and saved.
+2026-04-09 17:17:04,261 | INFO | src.evaluate | linear_regression | Train MAE: $86,395
+2026-04-09 17:17:04,261 | INFO | src.evaluate | linear_regression | Test  MAE: $86,949
+2026-04-09 17:17:04,262 | INFO | src.evaluate | linear_regression | RMSE: $108,733
+2026-04-09 17:17:04,262 | INFO | src.evaluate | linear_regression | R²:   0.5035
+2026-04-09 17:17:04,431 | INFO | src.evaluate | random_forest | Train MAE: $16,864
+2026-04-09 17:17:04,431 | INFO | src.evaluate | random_forest | Test  MAE: $46,713
+2026-04-09 17:17:04,432 | INFO | src.evaluate | random_forest | RMSE: $65,436
+2026-04-09 17:17:04,432 | INFO | src.evaluate | random_forest | R²:   0.8202
+2026-04-09 17:17:06,381 | INFO | src.evaluate | Residual plot saved: logs/linear_regression_residuals.png
+2026-04-09 17:17:06,883 | INFO | src.evaluate | Residual plot saved: logs/random_forest_residuals.png
+2026-04-09 17:17:07,342 | INFO | src.evaluate | Feature importance plot saved: logs/feature_importance.png
+2026-04-09 17:17:24,267 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 17:17:31,712 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 17:17:34,720 | INFO | src.predict | Model loaded: random_forest
+2026-04-09 17:17:34,722 | INFO | src.predict | Feature columns loaded: 13 features
+2026-04-09 17:17:34,722 | INFO | src.predict | Input validation passed.
+2026-04-09 17:17:34,862 | INFO | src.predict | Predicted price: $277,506 using random_forest
