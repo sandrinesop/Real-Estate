@@ -7,7 +7,9 @@ import joblib
 from src.predict import predict_price
 from src.utils import setup_logging
 
-setup_logging()
+
+setup_logging(log_filename="app.log")
+
 
 st.set_page_config(
     page_title="Real Estate Price Predictor",

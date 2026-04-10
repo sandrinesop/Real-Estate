@@ -29,3 +29,63 @@
 2026-04-09 17:17:34,722 | INFO | src.predict | Feature columns loaded: 13 features
 2026-04-09 17:17:34,722 | INFO | src.predict | Input validation passed.
 2026-04-09 17:17:34,862 | INFO | src.predict | Predicted price: $277,506 using random_forest
+2026-04-09 18:31:03,625 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:32:16,491 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:32:29,423 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:32:34,539 | INFO | src.predict | Model loaded: random_forest
+2026-04-09 18:32:34,556 | INFO | src.predict | Feature columns loaded: 13 features
+2026-04-09 18:32:34,556 | INFO | src.predict | Model loaded: random_forest
+2026-04-09 18:32:34,557 | INFO | src.predict | Input validation passed.
+2026-04-09 18:32:34,559 | INFO | src.predict | Feature columns loaded: 13 features
+2026-04-09 18:32:34,560 | INFO | src.predict | Input validation passed.
+2026-04-09 18:32:34,823 | INFO | src.predict | Predicted price: $276,246 using random_forest
+2026-04-09 18:32:35,004 | INFO | src.predict | Predicted price: $276,246 using random_forest
+2026-04-09 18:33:19,365 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:33:31,448 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:33:34,071 | INFO | src.predict | Model loaded: random_forest
+2026-04-09 18:33:34,072 | INFO | src.predict | Feature columns loaded: 13 features
+2026-04-09 18:33:34,073 | INFO | src.predict | Input validation passed.
+2026-04-09 18:33:34,205 | INFO | src.predict | Predicted price: $276,831 using random_forest
+2026-04-09 18:33:44,367 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:33:44,413 | INFO | src.predict | Model loaded: linear_regression
+2026-04-09 18:33:44,415 | INFO | src.predict | Feature columns loaded: 13 features
+2026-04-09 18:33:44,415 | INFO | src.predict | Input validation passed.
+2026-04-09 18:33:44,423 | INFO | src.predict | Predicted price: $-15,232,290 using linear_regression
+2026-04-09 18:34:10,337 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:34:10,363 | INFO | src.predict | Model loaded: linear_regression
+2026-04-09 18:34:10,366 | INFO | src.predict | Feature columns loaded: 13 features
+2026-04-09 18:34:10,368 | INFO | src.predict | Input validation passed.
+2026-04-09 18:34:10,377 | INFO | src.predict | Predicted price: $-15,215,489 using linear_regression
+2026-04-09 18:34:15,853 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:34:15,874 | INFO | src.predict | Model loaded: linear_regression
+2026-04-09 18:34:15,875 | INFO | src.predict | Feature columns loaded: 13 features
+2026-04-09 18:34:15,876 | INFO | src.predict | Input validation passed.
+2026-04-09 18:34:15,883 | INFO | src.predict | Predicted price: $-15,215,489 using linear_regression
+2026-04-09 18:34:18,545 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:34:18,564 | INFO | src.predict | Model loaded: linear_regression
+2026-04-09 18:34:18,565 | INFO | src.predict | Feature columns loaded: 13 features
+2026-04-09 18:34:18,566 | INFO | src.predict | Input validation passed.
+2026-04-09 18:34:18,573 | INFO | src.predict | Predicted price: $-15,215,489 using linear_regression
+2026-04-09 18:34:28,010 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:34:37,870 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:34:37,893 | INFO | src.predict | Model loaded: linear_regression
+2026-04-09 18:34:37,895 | INFO | src.predict | Feature columns loaded: 13 features
+2026-04-09 18:34:37,898 | INFO | src.predict | Input validation passed.
+2026-04-09 18:34:37,905 | INFO | src.predict | Predicted price: $-15,215,555 using linear_regression
+2026-04-09 18:34:55,143 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:34:55,168 | INFO | src.predict | Model loaded: linear_regression
+2026-04-09 18:34:55,171 | INFO | src.predict | Feature columns loaded: 13 features
+2026-04-09 18:34:55,172 | INFO | src.predict | Input validation passed.
+2026-04-09 18:34:55,182 | INFO | src.predict | Predicted price: $-15,194,554 using linear_regression
+2026-04-09 18:34:58,696 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:35:08,993 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:35:09,234 | INFO | src.predict | Model loaded: random_forest
+2026-04-09 18:35:09,237 | INFO | src.predict | Feature columns loaded: 13 features
+2026-04-09 18:35:09,238 | INFO | src.predict | Input validation passed.
+2026-04-09 18:35:09,357 | INFO | src.predict | Predicted price: $277,506 using random_forest
+2026-04-09 18:35:20,615 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:35:31,843 | INFO | src.utils | Logging initialized. Log: logs\real_estate.log
+2026-04-09 18:35:31,868 | INFO | src.predict | Model loaded: linear_regression
+2026-04-09 18:35:31,871 | INFO | src.predict | Feature columns loaded: 13 features
+2026-04-09 18:35:31,872 | INFO | src.predict | Input validation passed.
+2026-04-09 18:35:31,883 | INFO | src.predict | Predicted price: $-15,198,754 using linear_regression
